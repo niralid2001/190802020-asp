@@ -1,436 +1,444 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="Home(Client).aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <!-- hero slider Start -->
-    <div class="banner-wrap">
-        <div class="row m-0">
-            <div class="col-md-6 banner-left pt-md-0 pt-5 pb-md-0 pb-sm-4">
-                <div class="container pt-md-0 pt-5">
-                    <div class="banner-info ps-xxl-5 ps-xl-0 ps-5 ms-lg-5 py-md-0 py-5">
-                        <p class="mb-1">Business Solution!</p>
-                        <h3>Discover the world of Business </h3>
-                        <a class="btn btn-style btn-style-2 mt-sm-5 mt-4" href="about.html">Get Started</a>
+     <!-- banner section -->
+    <section id="home" class="w3l-banner py-5">
+        <div class="banner-image">
+
+        </div>
+        <div class="banner-content">
+            <div class="container pt-5 pb-md-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 pt-md-0 pt-4">
+                        <h3 class="mb-lg-4 mb-3 title">We Are <span class="typed-text"></span><span
+                                class="cursor">&nbsp</span></h3>
+                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                            consequuntur
+                            magni dolores eos qui ratione voluptatem sequi nesciunt</p>
+                        <div class="mt-md-5 mt-4 mb-lg-0 mb-4">
+                            <a class="btn button-style" href="About(Client).aspx">Get Started</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-6 banner-right">
-                <div class="text-center py-5">
-                    <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center">
-                        <span class="video-play-icon">
-                            <span class="fa fa-play"></span>
-                        </span>
-                    </a>
-                    <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-                    <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                        <iframe src="https://player.vimeo.com/video/119641053?h=6ddc880e8a" frameborder="0"
-                            allow="autoplay; fullscreen" allowfullscreen></iframe>
+                    <div class="col-md-6 mt-md-0 mt-4">
+                        <img class="img-fluid" src="assets/images/bann1.png" alt=" ">
                     </div>
-                    <!--//video-->
                 </div>
             </div>
         </div>
-        <div class="shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
-                <path fill-opacity="1">
-                    <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
-                        values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                                 M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
+    </section>
+    <!-- //banner section -->
 
-                </path>
-            </svg>
+    <!-- about section -->
+    <div class="w3l-content-photo-5 py-5">
+        <div class="container py-lg-5 py-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 content-photo order-md-first order-last">
+                    <a href="#image"><img src="assets/images/home-ab.png" class="img-fluid" alt="content-photo"></a>
+                </div>
+                <div class="col-md-6 content-left mb-md-0 mb-5 pl-lg-5 order-md-last order-first">
+                    <h3 class="mb-3">Welcome To Our Website</h3>
+                    <p>Aptent taciti sociosqu ad litora
+                        conubia nostra, per inceptos himenaeos. Aenean olutpat elementum ante.</p>
+                    <p class="mt-3">Nunc vel pellentesque. Class aptent taciti sociosqu ad litora
+                        torquent per
+                        conubia nostra, per inceptos himenaeos. Aenean volutpat elementum ante, id eleifend eros
+                        luctus sit
+                        amet. Tncidunt erat neque non ipsum.</p>
+                    <a class="btn button-style mt-lg-5 mt-4" href="About(Client).aspx">Learn More </a>
+                </div>
+            </div>
         </div>
     </div>
-    <!-- hero slider end -->
+    <!-- //about section -->
 
-    <!-- 4grids with content block -->
-    <section class="home-about-w3l pt-lg-5 pb-5" id="features">
-        <div class="container py-md-5 py-4">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-lg-8 mt-lg-0 mt-5">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="grids-1">
-                                <div class="icon-style">
-                                    <i class="fas fa-chart-line"></i>
-                                </div>
-                                <h4 class="title-head mb-2"><a href="about.html">Our Approach</a></h4>
-                                <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                                    ladase.</p>
-                                <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                        class="fas fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mt-sm-5 mt-4">
-                            <div class="grids-1 active">
-                                <div class="icon-style">
-                                    <i class="fas fa-business-time"></i>
-                                </div>
-                                <h4 class="title-head mb-2"><a href="about.html">Our Expereience</a></h4>
-                                <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                                    ladase.</p>
-                                <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                        class="fas fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mt-sm-0 mt-4">
-                            <div class="grids-1">
-                                <div class="icon-style">
-                                    <i class="fas fa-users"></i>
-                                </div>
-                                <h4 class="title-head mb-2"><a href="about.html">Our Clients</a></h4>
-                                <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                                    ladase.</p>
-                                <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                        class="fas fa-arrow-right ms-1"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 mt-sm-5 mt-4">
-                            <div class="grids-1">
-                                <div class="icon-style">
-                                    <i class="fas fa-city"></i>
-                                </div>
-                                <h4 class="title-head mb-2"><a href="about.html">Our Office</a></h4>
-                                <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                                    ladase.</p>
-                                <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                        class="fas fa-arrow-right ms-1"></i></a>
+    <!-- team with text section -->
+    <section class="w3l-content-11-main">
+        <div class="content-design-11 py-5">
+            <div class="container">
+                <div class="mx-auto text-center mb-sm-5 mb-4" style="max-width:800px">
+                    <h3 class="title-main-2 text-center mx-auto mb-sm-4 mb-2" style="max-width:600px">A digital web
+                        studio
+                        creating stunning & We make the best !</h3>
+                    <p class="sub-para-style">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non.
+                        Duis sed dolor et amet.
+                        Sed ut perspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam,
+                        eritatis et quasi.</p>
+                </div>
+                <div class="row justify-content-center pt-lg-2">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="position-relative">
+                            <img src="assets/images/team1.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Aida Bugg</a></h4>
+                                <p>Subtitle</p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-xl-5 col-lg-4 ps-lg-5 mt-lg-0 mt-5">
-                    <h3 class="title-style mb-lg-4 mb-3">Digital Experience in the Talent Journey and Learning!</h3>
-                    <p class="text-para">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                        lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus.
-                    </p>
-                    <a href="about.html" class="btn btn-style mt-sm-5 mt-4">Learn More</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 4grids with content block -->
-
-    <!-- image with text section -->
-    <section class="w3l-text-6 py-5">
-        <div class="container pb-md-5 pb-4">
-            <div class="row top-cont-grid align-items-center">
-                <div class="col-lg-5">
-                    <div class="right-img">
-                        <img src="assets/images/img1.jpg" alt="" class="img-fluid" />
-                    </div>
-                </div>
-                <div class="col-lg-1">
-
-                </div>
-                <div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4">
-                    <div class="left-cont">
-                        <h3 class="title-style">Investment planning & strategy</h3>
-                        <p class="mt-3 mb-2">Sed luctus orci sit amet tempor luctus. Nullam non felis massa. Phasellus
-                            vitae fringilla sapien, quis dictum mi. Quisque consectetur egestas.Lorem ipsum dolor sit
-                            amet,
-                            consectetur adipiscing elit. Sed luctus orci sit amet tempor luctus. Nullam non felis massa.
-                            Phasellus vitae fringilla sapien.</p>
-                        <a href="services.html" class="btn btn-style mt-4">Learn More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row top-cont-grid top-space align-items-center mt-5 pt-lg-5 pt-4 pb-4">
-                <div class="col-lg-6 mt-lg-0 mt-sm-5 mt-4 order-lg-first order-last">
-                    <div class="left-cont">
-                        <h3 class="title-style">Competitive research & Assurance</h3>
-                        <p class="mt-3 mb-2">Sed luctus orci sit amet tempor luctus. Nullam non felis massa. Phasellus
-                            vitae fringilla sapien, quis dictum mi. Quisque consectetur egestas.Lorem ipsum dolor sit
-                            amet,
-                            consectetur adipiscing elit. Sed luctus orci sit amet tempor luctus. Nullam non felis massa.
-                            Phasellus vitae fringilla sapien.</p>
-                        <a href="services.html" class="btn btn-style mt-4">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-lg-1">
-
-                </div>
-                <div class="col-lg-5 order-lg-last order-first">
-                    <div class="right-img sec-img-ab">
-                        <img src="assets/images/img2.jpg" alt="" class="img-fluid" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- image with text section -->
-
-    <!-- stats -->
-    <section class="w3_stats py-5" id="stats">
-        <div class="container py-md-5 py-5">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <h3 class="title-style" style="color:white">We have over 10 years Experience</h3>
-            </div>
-            <div class="w3-stats text-center pt-lg-4">
-                <div class="row">
-                    <div class="col-md-3 col-6">
-                        <div class="counter">
-                            <i class="fab fa-r-project"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="200" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
+                    <div class="col-md-4 col-sm-6 mt-sm-0 mt-4">
+                        <div class="position-relative">
+                            <img src="assets/images/team3.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Jimic Nasium</a></h4>
+                                <p>Subtitle</p>
                             </div>
-                            <p class="count-text">Successfull Project</p>
                         </div>
                     </div>
-                    <div class="col-md-3 col-6">
-                        <div class="counter">
-                            <i class="fas fa-smile"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="100" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
+                    <div class="col-md-4 col-sm-6 mt-md-0 mt-4">
+                        <div class="position-relative">
+                            <img src="assets/images/team2.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Henry Itondo</a></h4>
+                                <p>Subtitle</p>
                             </div>
-                            <p class="count-text">Happy Clients</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6 mt-md-0 mt-4">
-                        <div class="counter">
-                            <i class="fas fa-medal"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="30" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
-                            <p class="count-text">Business Awards</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6 mt-md-0 mt-4">
-                        <div class="counter">
-                            <i class="fas fa-mug-hot"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="130" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
-                            <p class="count-text">Cup Coffee</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //stats -->
+    <!-- //team with text section -->
 
-    <!-- projects block -->
-    <section class="project-sec py-5" id="projects">
-        <div class="container py-md-5 py-4">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <h3 class="title-style">Our Latest Projects</h3>
-            </div>
+    <!-- features section -->
+    <section class="features-section pt-5" id="work">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 col-6">
-                    <a href="https://w3layouts.com/template/grocery-mart-a-multi-vendor-ecommerce-website-template/"
-                        target="_blank">
-                        <img src="assets/images/p1.jpg" alt="" class="img-fluid radius-image">
-                    </a>
+                <div class="col-lg-4 left-wthree-img order-lg-first order-last">
+                    <img src="assets/images/home1.jpg" alt="" class="img-fluid img-responsive">
                 </div>
-                <div class="col-md-4 col-6">
-                    <a href="https://w3layouts.com/template/beidea-a-corporate-business-category-website-template/"
-                        target="_blank">
-                        <img src="assets/images/p2.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-md-0 mt-4">
-                    <a href="https://w3layouts.com/template/biodata-a-personal-portfolio-website-templates/"
-                        target="_blank">
-                        <img src="assets/images/p3.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4">
-                    <a href="https://w3layouts.com/template/call-center-a-corporate-business-website-template/"
-                        target="_blank">
-                        <img src="assets/images/p4.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4">
-                    <a href="https://w3layouts.com/template/industries-website-template/" target="_blank">
-                        <img src="assets/images/p5.jpg" alt="" class="img-fluid radius-image">
-                    </a>
-                </div>
-                <div class="col-md-4 col-6 mt-4">
-                    <a href="https://w3layouts.com/template/studious-website-template/" target="_blank">
-                        <img src="assets/images/p6.jpg" alt="" class="img-fluid radius-image">
-                    </a>
+                <div class="col-lg-8 right-wthree-img align-self order-lg-last order-first">
+                    <div class="row text-center">
+                        <div class="col-sm-4 col-6 icon-text-style">
+                            <i class="fas fa-tablet-alt icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="col-sm-4 col-6 icon-text-style">
+                            <i class="fab fa-airbnb icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="col-sm-4 col-6 icon-text-style  border-right-0">
+                            <i class="fab fa-asymmetrik icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="col-sm-4 col-6 icon-text-style icon-text-style-2">
+                            <i class="fab fa-chromecast icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="col-sm-4 col-6 icon-text-style icon-text-style-2">
+                            <i class="fas fa-headphones-alt icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="col-sm-4 col-6 icon-text-style icon-text-style-2 border-right-0">
+                            <i class="fab fa-laravel icon-color"></i>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //projects block -->
+    <!-- //features section -->
 
-    <!-- pricing block -->
-    <section class="pricing-w3l py-lg-5 py-2">
-        <div class="container">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4 pb-md-1" style="max-width:500px;">
-                <h3 class="title-style">Pick the right plan!</h3>
+    <!-- blog section -->
+    <section class="w3l-blog-sec pt-5">
+        <div class="services-layout py-md-4 py-3">
+            <div class="container">
+                <div class="text-center mb-sm-5 mb-4">
+                    <label class="sub-title mb-2">Articles</label>
+                    <h3 class="title-big">Blog Posts</h3>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 column column-img" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog1.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Nunc consequat justo</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>9
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>9 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 column column-img mt-md-0 mt-5" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog2.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Fusce ac eros quis</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>9
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>8 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-md-5 mt-5 column column-img" id="zoomIn">
+                        <div class="services-gd">
+                            <div class="serve-info">
+                                <a href="#blog">
+                                    <figure>
+                                        <img class="img-responsive" src="assets/images/blog3.jpg" alt="blog-image">
+                                    </figure>
+                                </a>
+                                <h3> <a href="#blog" class="vv-link">Cras fringilla enim</a>
+                                </h3>
+                                <ul class="admin-list">
+                                    <li><a href="#blog"><span class="fa fa-user-circle icon-color"
+                                                aria-hidden="true"></span>
+                                            Admin</a></li>
+                                    <li><a href="#blog"><span class="fa fa-heart icon-color"
+                                                aria-hidden="true"></span>6
+                                            Likes</a></li>
+                                    <li><a href="#blog"><span class="fa fa-comments icon-color"
+                                                aria-hidden="true"></span>9 Comments</a>
+                                    </li>
+                                </ul>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                    laudantium, totam rem aperiam, eaque ipsa quae ab.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row no-gutters pt-4">
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Standard</h3>
-                    <h4>$0<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Social Media plan</span></li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
-                </div>
+        </div>
+    </section>
+    <!-- //blog section -->
 
-                <div class="col-lg-4 box-pricing featured">
-                    <h3 class="text-price">Popular</h3>
-                    <h4>$29<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style btn-style-2 mt-4">Get Started</a>
+    <!-- testimonials section -->
+    <section class="w3l-clients py-5" id="testimonials">
+        <div class="container py-md-5 py-4">
+            <div class="text-center mb-sm-5 mb-4">
+                <label class="sub-title mb-2">Testimonials</label>
+                <h3 class="title-big">What Clients Says</h3>
+            </div>
+            <div id="owl-demo2" class="owl-carousel owl-theme pb-5">
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi1.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Johnson william</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Premium</h3>
-                    <h4>$49<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li><i class="fas fa-check-circle"></i> Company & Business Setup</li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi2.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Alexander sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi3.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>John wilson</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi1.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Julia sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi2.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>John wilson</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet.</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi3.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Julia sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //pricing block -->
+    <!-- //testimonials section -->
 
-    <!-- testimonial section -->
-    <section class="testimonial-area pt-5" id="testimonials">
-        <div class="container pt-md-5 pt-4">
-            <div class="title-heading-w3 text-center mx-auto mb-sm-5 mb-4" style="max-width:500px;">
-                <h3 class="title-style">Testimonials</h3>
-            </div>
-            <div class="testi-wrap">
-                <div class="client-single active position-1" data-position="position-1">
-                    <div class="client-img">
-                        <img src="assets/images/testi4.jpg" alt="" />
+    <!-- 3 grids -->
+    <section class="w3l-features-4">
+        <div class="features4-block text-center py-5">
+            <div class="container py-md-5 py-3">
+                <div class="row features4-grids justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-business-time icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><a href="Contact(Client).aspx">1. Planning & Research</a></h5>
+                            <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers
+                                luctus eted.</p>
+                        </div>
                     </div>
-                    <div class="client-info">
-                        <h3>Theo Hall</h3>
-                        <p>Subtitle goes here</p>
+                    <div class="col-lg-4 col-md-6 mt-md-0 mt-2">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-laptop-code icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><a href="Contact(Client).aspx">2. Optimizing</a></h5>
+                            <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers
+                                luctus eted.</p>
+                        </div>
                     </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-2">
+                        <div class="features4-grid">
+                            <div class="feature-images">
+                                <span class="fas fa-clipboard-check icon-color" aria-hidden="true"></span>
+                            </div>
+                            <h5><a href="Contact(Client).aspx">3. Result</a></h5>
+                            <p>Lorem ante ipsum primis in faucibus orci luctus eted ultrices posuere curae fers
+                                luctus eted.</p>
+                        </div>
                     </div>
                 </div>
-
-                <div class="client-single inactive position-2" data-position="position-2">
-                    <div class="client-img">
-                        <img src="assets/images/testi2.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Olive Yew</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-3" data-position="position-3">
-                    <div class="client-img">
-                        <img src="assets/images/testi1.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Maya Didas</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-4" data-position="position-4">
-                    <div class="client-img">
-                        <img src="assets/images/testi3.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Brock Lee</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-5" data-position="position-5">
-                    <div class="client-img">
-                        <img src="assets/images/testi5.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Shona Leer</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-6" data-position="position-6">
-                    <div class="client-img">
-                        <img src="assets/images/testi6.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Dennis Lson</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-7" data-position="position-7">
-                    <div class="client-img">
-                        <img src="assets/images/testi7.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Jenna John</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-    <!-- //testimonial section -->
+    <!-- 3 grids -->
+
+    <!-- promocode section -->
+    <section class="w3l-promocode">
+        <div class="promo-block py-5">
+            <div class="container py-md-5 py-4">
+                <div class="row aap-4-section">
+                    <div class="col-lg-6 app4-right-image">
+                        <img src="assets/images/mobile.png" class="img-fluid" alt="App Device" />
+                    </div>
+                    <div class="col-lg-6 app4-left-text pl-lg-0 mb-lg-0 mb-5">
+                        <h6>For 30% Discount</h6>
+                        <h4>Get Our Promocode</h4>
+                        <p class="mb-4"> Uspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus
+                            sapien. Proin a
+                            diam et dui fermentum molestie vel id neque. </p>
+                        <div class="app-4-connection">
+                            <div class="newsletter">
+                                <label>Never Miss a Deal !</label>
+                                <form action="#" methos="GET" class="d-flex wrap-align">
+                                    <input type="email" placeholder="Enter your email id" required="required" />
+                                    <button type="submit" class="button-style">Get Promocode</button>
+                                </form>
+                            </div>
+                            <p class="mobile-text-app mt-4 pt-2">(Or) To Get Our Mobile Apps</p>
+                            <div class="app-4-icon">
+                                <ul>
+                                    <li><a href="#url" title="Apple" class="app-icon apple-vv"><span
+                                                class="fab fa-apple  icon-color" aria-hidden="true"></span></a></li>
+                                    <li><a href="#url" title="Google play" class="app-icon play-vv"><span
+                                                class="fab fa-google-play icon-color" aria-hidden="true"></span></a>
+                                    </li>
+                                    <li><a href="#url" title="Microsoft" class="app-icon windows-vv"><span
+                                                class="fab fa-windows icon-color" aria-hidden="true"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //promocode section -->
 </asp:Content>
 

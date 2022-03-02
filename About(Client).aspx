@@ -1,308 +1,74 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="About(Client).aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-<!-- inner banner -->
-    <section class="inner-banner py-5">
-        <div class="w3l-breadcrumb py-lg-5">
-            <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">About Us</h4>
+ <!-- inner banner -->
+    <div class="inner-banner">
+        <section class="w3l-breadcrumb">
+            <div class="container">
+                <h4 class="inner-text-title font-weight-bold mb-2">About Us</h4>
                 <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right mx-2"></i>About</li>
+                    <li><a href="Home(Client).aspx">Home</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>About Us</li>
                 </ul>
             </div>
-        </div>
-        <div class="shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
-                <path fill-opacity="1">
-                    <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
-                        values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                                 M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
-
-                </path>
-            </svg>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- //inner banner -->
 
-    <!-- about block -->
-    <section class="w3l-homeblock1 py-5">
+    <!-- about2 section -->
+    <section class="w3l-about2 py-5">
         <div class="container py-md-5 py-4">
             <div class="row align-items-center">
-                <div class="col-lg-6 homeaboutimages">
-                    <div class="row position-relative">
-                        <div class="col-6">
-                            <img src="assets/images/about1.jpg" alt="" class="img-fluid radius-image">
-                        </div>
-                        <div class="col-6 mt-4 ps-sm-3 ps-1">
-                            <img src="assets/images/about2.jpg" alt="" class="img-fluid radius-image mb-sm-4 mb-3">
-                            <img src="assets/images/about3.jpg" alt="" class="img-fluid radius-image">
-                        </div>
-                    </div>
+                <div class="col-lg-6 about-2-secs-right">
+                    <img src="assets/images/about.png" alt="" class="img-fluid img-responsive" />
                 </div>
-                <div class="col-lg-6 ps-xl-5 mt-lg-0 mt-5">
-                    <h3 class="title-style mb-lg-4 mb-3">World's Best Business Agency Company Since 2006.</h3>
-                    <p class="text-para">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                        lacinia est. Quisque ut lectus consequat.
+                <div class="col-lg-6 about-2-secs pl-lg-5 mb-lg-0 mb-4">
+                    <h3 class="title-big">We have 25+ years of work experience.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet efficitur tortor
                     </p>
-                    <a href="about.html" class="btn btn-style mt-4">Learn More</a>
+                    <ul>
+                        <li><span class="fas fa-check-circle icon-color" aria-hidden="true"></span>Ut enim ad minim veniam</li>
+                        <li><span class="fas fa-check-circle icon-color" aria-hidden="true"></span>Quis nostrud exercitation
+                            ullamco
+                            laboris</li>
+                        <li><span class="fas fa-check-circle  icon-color" aria-hidden="true"></span>Nisi ut aliquip ex ea commodo
+                            consequat</li>
+                        <li><span class="fas fa-check-circle icon-color" aria-hidden="true"></span>In et augue ornare, tempor
+                            massa in</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!-- //about block -->
-
-    <!-- team block -->
-    <section class="w3l-team-main" id="team">
-        <div class="team py-5">
-            <div class="container py-md-5 py-4">
-                <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                    <h3 class="title-style" style="color:#fff;">Meet our Team</h3>
-                </div>
-                <div class="row team-row mt-md-5 mt-4">
-                    <div class="col-lg-3 col-6 team-wrap">
-                        <div class="team-member text-center">
-                            <div class="team-img">
-                                <img src="assets/images/team1.jpg" alt="" class="radius-image">
-                            </div>
-                            <a href="#url" class="team-title">Lern Victor</a>
-                            <div class="team-details text-center">
-                                <div class="socials mt-20">
-                                    <a href="#facebook">
-                                        <span class="fab fa-facebook-f"></span>
-                                    </a>
-                                    <a href="#twitter">
-                                        <span class="fab fa-twitter"></span>
-                                    </a>
-                                    <a href="#linkedin-in">
-                                        <span class="fab fa-linkedin-in"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end team member -->
-                    <div class="col-lg-3 col-6 team-wrap">
-                        <div class="team-member text-center">
-                            <div class="team-img">
-                                <img src="assets/images/team2.jpg" alt="" class="radius-image">
-                            </div>
-                            <a href="#url" class="team-title">Meyer Lson</a>
-                            <div class="team-details text-center">
-                                <div class="socials mt-20">
-                                    <a href="#facebook">
-                                        <span class="fab fa-facebook-f"></span>
-                                    </a>
-                                    <a href="#twitter">
-                                        <span class="fab fa-twitter"></span>
-                                    </a>
-                                    <a href="#linkedin-in">
-                                        <span class="fab fa-linkedin-in"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end team member -->
-                    <div class="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
-                        <div class="team-member last text-center">
-                            <div class="team-img">
-                                <img src="assets/images/team3.jpg" alt="" class="radius-image">
-                            </div>
-                            <a href="#url" class="team-title">Ali Meyer</a>
-                            <div class="team-details text-center">
-                                <div class="socials mt-20">
-                                    <a href="#facebook">
-                                        <span class="fab fa-facebook-f"></span>
-                                    </a>
-                                    <a href="#twitter">
-                                        <span class="fab fa-twitter"></span>
-                                    </a>
-                                    <a href="#linkedin-in">
-                                        <span class="fab fa-linkedin-in"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end team member -->
-                    <div class="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
-                        <div class="team-member last text-center">
-                            <div class="team-img">
-                                <img src="assets/images/team4.jpg" alt="" class="radius-image">
-                            </div>
-                            <a href="#url" class="team-title">Sam Mills</a>
-                            <div class="team-details text-center">
-                                <div class="socials mt-20">
-                                    <a href="#facebook">
-                                        <span class="fab fa-facebook-f"></span>
-                                    </a>
-                                    <a href="#twitter">
-                                        <span class="fab fa-twitter"></span>
-                                    </a>
-                                    <a href="#linkedin-in">
-                                        <span class="fab fa-linkedin-in"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end team member -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //team block -->
-
-    <!-- progress block -->
-    <section class="w3l-about-2 py-5">
-        <div class="container py-md-5 py-4">
-            <div class="row align-items-center">
-                <div class="col-lg-6 about-2-secs-left pe-lg-5 order-lg-first order-last">
-                    <h3 class="title-style mb-3">We are the best agency to improve your work
-                    </h3>
-                    <div class="w3l-progressblock mt-md-5 mt-4">
-                        <div class="progress-info info1">
-                            <h6 class="progress-tittle">Market Strategy <span class="">80%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%"
-                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info2">
-                            <h6 class="progress-tittle">Financial Support <span class="">95%</span>
-                            </h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%"
-                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="progress-info info3 mb-0">
-                            <h6 class="progress-tittle">Online reporting <span class="">90%</span></h6>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%"
-                                    aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 about-2-secs-right mb-lg-0 mb-5 order-lg-last order-first">
-                    <img src="assets/images/about4.jpg" alt="" class="img-fluid radius-image" />
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //progress block -->
-
-    <!-- features block -->
-    <section class="w3l-features pb-5 pt-4" id="features">
-        <div class="container pb-md-5 pb-4">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:600px;">
-                <h3 class="title-style">Why Choose Work Field for your company?</h3>
-            </div>
-            <div class="row pt-4">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="feature-gd">
-                        <div class="icon-featured">
-                            <i class="fas fa-business-time"></i>
-                        </div>
-                        <div class="icon-info">
-                            <h5><a href="about.html">The Business <span>Strategy</span></a></h5>
-                            <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                                tempor init sit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mt-sm-0 mt-4 pt-sm-0 pt-1">
-                    <div class="feature-gd">
-                        <div class="icon-featured">
-                            <i class="fas fa-user-tie"></i>
-                        </div>
-                        <div class="icon-info">
-                            <h5><a href="about.html">Enterprise <span>Management</span></a></h5>
-                            <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                                tempor init sit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 pt-sm-0 pt-1">
-                    <div class="feature-gd">
-                        <div class="icon-featured">
-                            <i class="fas fa-copy"></i>
-                        </div>
-                        <div class="icon-info">
-                            <h5><a href="about.html">Operational <span>Excellence</span></a></h5>
-                            <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                                tempor init sit.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 mt-lg-0 mt-4 pt-sm-0 pt-1">
-                    <div class="feature-gd">
-                        <div class="icon-featured">
-                            <i class="fab fa-accusoft"></i>
-                        </div>
-                        <div class="icon-info">
-                            <h5><a href="about.html">Consulting <span>Solution</span></a></h5>
-                            <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                                tempor init sit.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //features block -->
+    <!-- //about2 section -->
 
     <!-- stats -->
     <section class="w3_stats py-5" id="stats">
-        <div class="container py-md-5 py-5">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4" style="max-width:500px;">
-                <h3 class="title-style" style="color:white">We have over 10 years Experience</h3>
-            </div>
-            <div class="w3-stats text-center pt-lg-4">
-                <div class="row">
+        <div class="container py-md-4 py-3">
+            <div class="w3-stats">
+                <div class="row text-center">
                     <div class="col-md-3 col-6">
                         <div class="counter">
-                            <i class="fab fa-r-project"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="200" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
-                            <p class="count-text">Successfull Project</p>
+                            <div class="timer count-title count-number" data-to="5100" data-speed="1500"></div>
+                            <p class="count-text">Websites Designed</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
                         <div class="counter">
-                            <i class="fas fa-smile"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="100" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
+                            <div class="timer count-title count-number" data-to="971" data-speed="1500"></div>
+                            <p class="count-text">Apps Developed</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mt-md-0 mt-4">
+                        <div class="counter">
+                            <div class="timer count-title count-number" data-to="7600" data-speed="1500"></div>
                             <p class="count-text">Happy Clients</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-6 mt-md-0 mt-4">
                         <div class="counter">
-                            <i class="fas fa-medal"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="30" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
-                            <p class="count-text">Business Awards</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-6 mt-md-0 mt-4">
-                        <div class="counter">
-                            <i class="fas fa-mug-hot"></i>
-                            <div class="d-flex align-items-center justify-content-center">
-                                <div class="timer" data-to="130" data-speed="1500"></div>
-                                <span class="stats-plus">+</span>
-                            </div>
-                            <p class="count-text">Cup Coffee</p>
+                            <div class="timer count-title count-number" data-to="36" data-speed="1500"></div>
+                            <p class="count-text">Web Designers</p>
                         </div>
                     </div>
                 </div>
@@ -311,128 +77,260 @@
     </section>
     <!-- //stats -->
 
-    <!-- testimonial section -->
-    <section class="testimonial-area pt-5" id="testimonials">
-        <div class="container pt-md-5 pt-4">
-            <div class="title-heading-w3 text-center mx-auto mb-sm-5 mb-4" style="max-width:500px;">
-                <h3 class="title-style">Testimonials</h3>
-            </div>
-            <div class="testi-wrap">
-                <div class="client-single active position-1" data-position="position-1">
-                    <div class="client-img">
-                        <img src="assets/images/testi4.jpg" alt="" />
+    <!-- team with grids section -->
+    <section class="w3l-content-11-main">
+        <div class="content-design-11 py-5">
+            <div class="container py-md-4 py-3">
+                <div class="text-center mb-sm-5 mb-4">
+                    <label class="sub-title mb-2">Team</label>
+                    <h3 class="title-big">Our Creative Team</h3>
+                </div>
+                <div class="row justify-content-center pt-lg-2">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="position-relative">
+                            <img src="assets/images/team1.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Aida Bugg</a></h4>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="client-info">
-                        <h3>Theo Hall</h3>
-                        <p>Subtitle goes here</p>
+                    <div class="col-md-4 col-sm-6 mt-sm-0 mt-4">
+                        <div class="position-relative">
+                            <img src="assets/images/team3.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Jimic Nasium</a></h4>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
+                    <div class="col-md-4 col-sm-6 mt-md-0 mt-4">
+                        <div class="position-relative">
+                            <img src="assets/images/team2.jpg" class="img-responsive" alt="content-photo">
+                            <div class="text-position">
+                                <h4><a href="About(Client).aspx">Henry Itondo</a></h4>
+                                <p>Subtitle</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="client-single inactive position-2" data-position="position-2">
-                    <div class="client-img">
-                        <img src="assets/images/testi2.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Olive Yew</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-3" data-position="position-3">
-                    <div class="client-img">
-                        <img src="assets/images/testi1.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Maya Didas</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-4" data-position="position-4">
-                    <div class="client-img">
-                        <img src="assets/images/testi3.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Brock Lee</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-5" data-position="position-5">
-                    <div class="client-img">
-                        <img src="assets/images/testi5.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Shona Leer</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-6" data-position="position-6">
-                    <div class="client-img">
-                        <img src="assets/images/testi6.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Dennis Lson</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
-                <div class="client-single inactive position-7" data-position="position-7">
-                    <div class="client-img">
-                        <img src="assets/images/testi7.jpg" alt="" />
-                    </div>
-                    <div class="client-info">
-                        <h3>Jenna John</h3>
-                        <p>Subtitle goes here</p>
-                    </div>
-                    <div class="client-comment">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. </h3>
-                        <img src="assets/images/quote.png" alt="" />
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-    <!-- //testimonial section -->
+    <!-- //team with grids section -->
+
+    <!-- image with content section -->
+    <section class="w3l-content-4 py-5" id="features">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="content-left col-lg-6">
+                    <h3 class="title-big">Passion, Dedication And Hard Work</h3>
+                    <p class="mt-4">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non.
+                        Duis sed dolor et amet.
+                        Sed ut perspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam,
+                        eritatis et quasi. </p>
+                    <p class="mt-4">Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                        consectetur adipisicing.</p>
+                    <a class="btn button-style mt-lg-5 mt-4" href="About(Client).aspx">Learn More </a>
+                </div>
+                <div class="content-right col-lg-6 pl-lg-4 mt-lg-0 mt-md-5 mt-5 align-self">
+                    <div class="row content4-right-grids mb-lg-5 mb-5">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fas fa-blog icon-color"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url">
+                                    Website Speed improvement</a>
+                            </h6>
+                            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="row content4-right-grids mb-lg-5 mb-5">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fa fa-cogs icon-color"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url">
+                                    The Best Business Services</a>
+                            </h6>
+                            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="row content4-right-grids">
+                        <div class="col-2 content4-right-icon">
+                            <div class="content4-icon">
+                                <span class="fa fa-link icon-color"></span>
+                            </div>
+                        </div>
+                        <div class="col-10 content4-right-info">
+                            <h6><a href="#url">
+                                    Link building and guest posts</a>
+                            </h6>
+                            <p>Lorem ipsum dolor sit amet,Ea consequuntur illum facere aperiam sequi optio
+                                consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //image with content section -->
+
+    <!-- content about -->
+    <section class="w3l-content-about py-5">
+        <div class="container py-md-5 py-4">
+            <img src="assets/images/image.jpg" alt="" class="img-fluid radius-image-full">
+            <div class="row mt-sm-5 mt-4">
+                <div class="col-lg-6 about-left-inner pr-lg-5">
+                    <h3 class="title-main-2 font-weight-bold">We create a new standard for businesses</h3>
+                </div>
+                <div class="col-lg-6 about-right-inner mt-lg-0 mt-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <p class="mt-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content about -->
+
+    <!-- testimonials section -->
+    <section class="w3l-clients py-5" id="testimonials">
+        <div class="container py-md-5 py-4">
+            <div class="text-center mb-sm-5 mb-4">
+                <label class="sub-title mb-2">Testimonials</label>
+                <h3 class="title-big">What Clients Says</h3>
+            </div>
+            <div id="owl-demo2" class="owl-carousel owl-theme pb-5">
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi1.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Johnson william</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi2.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Alexander sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi3.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>John wilson</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi1.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Julia sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Pellen tesque libero ut justo</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi2.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>John wilson</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimonial-content">
+                        <div class="testimonial">
+                            <blockquote>
+                                <q>Lorem ipsum dolor sit amet.</q>
+                            </blockquote>
+                            <p>Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum primis in
+                                faucibus orci luctus.</p>
+                        </div>
+                        <div class="bottom-info mt-4">
+                            <a class="comment-img" href="#url"><img src="assets/images/testi3.jpg"
+                                    class="img-responsive" alt="placeholder image"></a>
+                            <div class="people-info align-self">
+                                <h3>Julia sakura</h3>
+                                <p class="identity">Subtitle goes here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //testimonials section -->
 </asp:Content>
 
