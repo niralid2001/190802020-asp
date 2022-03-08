@@ -14,10 +14,10 @@ public partial class login : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         //DeleteCommand="DELETE FROM [users] WHERE [id] = @id" 
-        //InsertCommand="INSERT INTO [users] ([email], [password]) VALUES (@email, @password)" 
+        //InsertCommand="INSERT INTO [users] ([fullname][email], [password]) VALUES (@fullname,@email, @password)" 
        // ProviderName="<%$ ConnectionStrings:DatabaseConnectionString1.ProviderName %>" 
-        //SelectCommand="SELECT [id], [email], [password] FROM [users]" 
-        //UpdateCommand="UPDATE [users] SET [email] = @email, [password] = @password WHERE [id] = @id">
+        //SelectCommand="SELECT [id],[fullname],[email], [password] FROM [users]" 
+        //UpdateCommand="UPDATE [users] SET [fullname] = @fullname[, email] = @email, [password] = @password WHERE [id] = @id">
     }
 
     protected void Button1_Click(object sender, EventArgs e)

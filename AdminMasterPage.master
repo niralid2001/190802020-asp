@@ -32,6 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     
 </head>
 <body>
+<form id="form1" runat="server">
 <section id="container">
 <!--header start-->
 <header class="header fixed-top clearfix">
@@ -239,10 +240,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul class="dropdown-menu extended logout">
                 <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                 <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                 <form id="form1" runat="server">
+                 
                     <li><a href="#"><i class="fa fa-key"></i><asp:LinkButton ID="LinkButton1" 
                         runat="server" onclick="LinkButton1_Click">Log Out</asp:LinkButton></a></li>
-                </form>
+                
                 
             </ul>
         </li>
@@ -278,7 +279,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li>
-                 <a href="fontawesome.html">
+                 <a href="ManageUser.aspx">
                         <i class="fa fa-user"></i>
                         <span>Manage User </span>
                     </a>
@@ -470,5 +471,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		});
 	</script>
 	<!-- //calendar -->
+    </form>
 </body>
 </html>
