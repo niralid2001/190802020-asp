@@ -15,7 +15,7 @@ public partial class AdminMasterPage : System.Web.UI.MasterPage
         }
         else
         {
-            Literal1.Text = "Welcome ," + Session["email"].ToString();
+            Literal1.Text = "Welcome , " + Session["email"].ToString();
         }
     }
     protected void LinkButton1_Click(object sender, EventArgs e)
