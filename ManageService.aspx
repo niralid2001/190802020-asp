@@ -40,8 +40,9 @@
                                 </div>
                                 <div class="checkbox" align="center" dir="ltr">
                                 <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" 
-                                        CellPadding="4" ForeColor="#333333" GridLines="None">
-                                    <AlternatingRowStyle BackColor="White" />
+                                        CellPadding="4" ForeColor="#333333">
+                                    <AlternatingRowStyle BackColor="White" HorizontalAlign="Center" 
+                                        VerticalAlign="Middle" />
                                     <Columns>
                                         <asp:TemplateField HeaderText="Id">
                                             <ItemTemplate>
@@ -78,9 +79,10 @@
                                     </Columns>
                                     <EditRowStyle BackColor="#7C6F57" />
                                     <FooterStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
-                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" />
+                                    <HeaderStyle BackColor="#1C5E55" Font-Bold="True" ForeColor="White" 
+                                        HorizontalAlign="Center" VerticalAlign="Middle" />
                                     <PagerStyle BackColor="#666666" ForeColor="White" HorizontalAlign="Center" />
-                                    <RowStyle BackColor="#E3EAEB" />
+                                    <RowStyle BackColor="#E3EAEB" HorizontalAlign="Center" VerticalAlign="Middle" />
                                     <SelectedRowStyle BackColor="#C5BBAF" Font-Bold="True" ForeColor="#333333" />
                                     <SortedAscendingCellStyle BackColor="#F8FAFA" />
                                     <SortedAscendingHeaderStyle BackColor="#246B61" />

@@ -78,16 +78,19 @@
                 <h3 class="title-big">What We Provide</h3>
             </div>
             <div class="grids-area-hny main-cont-wthree-fea row">
-                <div class="col-lg-4 col-md-6 grids-feature">
+                <asp:Repeater ID="Repeater1" runat="server">
+                <ItemTemplate>
+                    <div class="col-lg-4 col-md-6 grids-feature">
                     <div class="area-box">
                         <span class="fab fa-facebook-f icon-color"></span>
-                        <h4><a href="#feature" class="title-head">FaceBook Marketing</a></h4>
-                        <p>Vivamus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis sed et
-                            dolor amet.</p>
+                        <h4><a href="#feature" class="title-head"><%# Eval("title") %></a></h4>
+                        <p><%# Eval("description").ToString().Length >180 ? Eval("description").ToString().Substring(0,180) + "...(Read More)" : Eval("description").ToString() %></p>
                         <a href="#url" class="more">Read More </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
+                </ItemTemplate>
+                </asp:Repeater>
+               <%--  <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
                     <div class="area-box">
                         <span class="fas fa-envelope-open icon-color"></span>
                         <h4><a href="#feature" class="title-head">Email Marketing</a></h4>
@@ -131,7 +134,7 @@
                             et amet.</p>
                         <a href="#url" class="more">Read More </a>
                     </div>
-                </div>
+                </div> --%>
             </div>
         </div>
     </section>

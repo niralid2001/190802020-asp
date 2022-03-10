@@ -35,7 +35,7 @@
                                 </div>
                                 <div class="agile-calendar" align="center" dir="ltr">
                                     <asp:GridView ID="GridView1" AutoGenerateColumns=False runat="server" 
-                                        CellPadding="20" BorderColor="Black" ForeColor="#333333" GridLines="None" 
+                                        CellPadding="20" BorderColor="Black" ForeColor="#333333" 
                                         BorderStyle="Solid" BorderWidth="1px" HorizontalAlign="Center">
                                         <AlternatingRowStyle BackColor="White" HorizontalAlign="Center" 
                                             VerticalAlign="Middle" />
