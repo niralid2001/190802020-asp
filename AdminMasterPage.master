@@ -301,6 +301,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </ul>
                 </li>
                 <li>
+                 <a href="ManageContact.aspx">
+                        <i class="fa fa-phone"></i>
+                        <span>Manage Contact </span>
+                    </a>
+                </li>
+                <li>
                     <a href="fontawesome.html">
                         <i class="fa fa-bullhorn"></i>
                         <span>Font awesome </span>
